@@ -24,3 +24,9 @@ Observable 表示可观察对象，  此类对象 可以被订阅，订阅主体
   <input #searchBox id="search-box" (keyup)="search(searchBox.value)" /> 
 
 7 路由  包括 路由出口和路由连接 和 路由模块
+
+8 启动入口
+index.html：根html，启动后的第一个要启动的页面
+main.ts：脚本执行的入口点，通过这个文件来启动整个项目
+
+9 本项目组件树结构梳理
